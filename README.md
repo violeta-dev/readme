@@ -134,20 +134,31 @@ Before starting the app you need to create one .env file for each backend and fr
 **_BACKEND_**
 
 MONGODB_CONNECTION_STRING_LOCAL=mongodb://localhost/dbname
+
 PORT=3003
+
 DOMAIN=http://localhost:3000
+
 DOMAIN_NODE=http://localhost:3003
+
 DOMAIN_PROD=http://<URL_PROD>
+
 JWT_SECRET=1234
+
 AMQP_CONNECTION_STRING=amqps://user:pass@host/instance
+
 SG_KEY=''
+
 PUBLIC_VAPID_KEY=***
+
 PRIVATE_VAPID_KEY=****
 
 **_FRONTEND_**
 
 REACT_APP_API_BASE_URL_PROD=<Api Url>
+  
 REACT_APP_CHAT_BASE_URL=http://chat.chitenavi-dev.com
+
 REACT_APP_API_BASE_URL_DEV=http://localhost:3003
 
 ### Start application
