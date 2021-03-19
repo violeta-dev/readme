@@ -145,6 +145,7 @@ PUBLIC_VAPID_KEY=\*\***
 PRIVATE_VAPID_KEY=\*\*\*\*
 
 **_FRONTEND_**
+
 REACT_APP_API_BASE_URL_PROD=<Api Url>
 REACT_APP_CHAT_BASE_URL=http://chat.chitenavi-dev.com
 REACT_APP_API_BASE_URL_DEV=http://localhost:3003
