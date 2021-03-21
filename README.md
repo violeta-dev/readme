@@ -163,10 +163,11 @@ REACT_APP_API_BASE_URL_DEV=http://localhost:3003
 
 ### Start application
 
-Once everything is configured this is the order to start the application:
+Once everything is configured this is the order to start the application and start thumbnail:
 
 ```
-\downloads\Wallaclone-Backend\npm start
+\downloads\Wallaclone-Backend\npm run dev
+node ./services/thumbnailServ.js
 
 
 ```
